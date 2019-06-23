@@ -1,0 +1,70 @@
+{
+    "agegroup": [
+        "young",
+        "adult",
+        "midlife",
+        "senior",
+        "elderly",
+        "ancient",
+        "centenarian",
+        "living dead",
+        "ghost"
+    ],
+    "gender": [
+        "male",
+        "female"
+    ],
+    "locale": [
+        "beach",
+        "mountain",
+        "side of the road",
+        "city hall",
+        "school",
+        "office building",
+        "store",
+        "garage"
+    ],
+    "mood": [
+        "happy",
+        "somber",
+        "hectic",
+        "quiet",
+        "joyful",
+        "comfy",
+        "tense",
+        "frantic",
+        "dinosaur"
+    ],
+    "profession": [
+        "teacher",
+        "officer",
+        "maid",
+        "official",
+        "ranger",
+        "sales associate",
+        "driver"
+    ],
+    "timeofday": [
+        "dawn",
+        "morning",
+        "late morning",
+        "noon",
+        "midday",
+        "lunch",
+        "afternoon",
+        "evening",
+        "night",
+        "midnight",
+        "late night",
+        "twilight"
+    ],
+    "timeperiod": [
+        "1930s",
+        "prehistoric",
+        "modern",
+        "turn of 19th century",
+        "20XX",
+        "far future",
+        "victorian"
+    ]
+}
