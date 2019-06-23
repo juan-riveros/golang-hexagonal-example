@@ -3,7 +3,7 @@ Hexagonal Architecture in Go
 
 ## Reasoning
 
-Hexagonal Architecture is cool. It lets you break down a design between external user facing interfaces (e.g. CLIs, REST APIs, GUIs, etc), the logic that resolves the core problem that we are addressing with the software, and the underlying technologies required to resolve the core problem (e.g. MySQL for a persistent datastore, Redis for a caching layer, RabbitMQ for a message queue). 
+Hexagonal Architecture is cool. It lets you break down a design between external user facing interfaces (e.g. CLIs, REST APIs, GUIs, etc), the logic that resolves the core problem that we are addressing with this software, and the underlying technologies required to resolve the core problem (e.g. MySQL for a persistent datastore, Redis for a caching layer, RabbitMQ for a message queue). 
 
 Since it decouples application logic from the underlying tech and at the same times ensures that the UIs are decoupled from the internals of the Core logic, we can mix and match between UI and backend. Additionally, adding new functionality is fairly straight forward since its so removed from the core logic. 
 
