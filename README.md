@@ -1,3 +1,7 @@
+> NB: Originally constructed to explain how some design patterns for interns. I wouldn't recommend this type of design for anything but the most enterprise of applications. Additionally the application/core/infrastructure/utils directories are serious anti-patterns for discoverability in the code base.
+> 
+> Still leaving this here as a good example of hexagonal design and it still is a good place to teach more useful design patterns like the Strategy and Proxy patterns.
+
 # golang-hexagonal-example
 Hexagonal Architecture in Go
 
@@ -12,7 +16,7 @@ Since it decouples application logic from the underlying tech and at the same ti
 For debugging issues, there are the `cmd` UI and the `mock` DB. 
 
 ```
-./SceneGeneratoro -database mock -ui cmd
+./SceneGenerator -database mock -ui cmd
 ```
 
 ## Deployment
